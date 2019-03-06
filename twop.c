@@ -3,7 +3,7 @@ int main()
 {
     int n1, n2, i, flag;
 
-    printf("");
+   
     scanf("%d %d", &n1, &n2);
     
 
