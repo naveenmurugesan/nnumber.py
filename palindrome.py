@@ -1,7 +1,11 @@
-my_str=int(input())
-my_str=my_str.casefold()
-rev_str=reversed(my_str)
-if list(my_str)==list(rev_str):
+n=int(input("enter the number"))
+temp=n
+rev=0
+while(n>0):
+  dig=n%10
+  rev=rev*10+dig
+  n=n/10
+if(temp==rev):
   print(" It is a palindrome")
  else:
  print("enter the number between <=1000")
